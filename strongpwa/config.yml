@@ -1,5 +1,5 @@
 name: "StrongPWA"
-version: "1.0.0"
+version: "1.8.0"
 slug: "strongpwa"
 description: "Converts Strong app workout exports to Garmin FIT files and syncs to Strava"
 url: "https://github.com/Aron-HD/garmin-sync"
