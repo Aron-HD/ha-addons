@@ -1,0 +1,32 @@
+name: "StrongPWA"
+version: "1.0.0"
+slug: "strongpwa"
+description: "Converts Strong app workout exports to Garmin FIT files and syncs to Strava"
+url: "https://github.com/Aron-HD/garmin-sync"
+image: "ghcr.io/aron-hd/garmin-sync"
+arch:
+  - amd64
+init: false
+ingress: true
+ingress_port: 80
+panel_icon: "mdi:weight-lifter"
+ports:
+  80/tcp: null
+options:
+  postgres_host: ""
+  postgres_port: 5432
+  postgres_database: "strongpwa"
+  postgres_user: ""
+  postgres_password: ""
+  strava_client_id: ""
+  strava_client_secret: ""
+  strava_redirect_uri: ""
+schema:
+  postgres_host: str
+  postgres_port: port
+  postgres_database: str
+  postgres_user: str
+  postgres_password: password
+  strava_client_id: str?
+  strava_client_secret: str?
+  strava_redirect_uri: str?
