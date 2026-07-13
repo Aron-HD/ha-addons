@@ -11,7 +11,7 @@ ingress: true
 ingress_port: 80
 panel_icon: "mdi:weight-lifter"
 ports:
-  80/tcp: null
+  80/tcp: 8090
 options:
   postgres_host: ""
   postgres_port: 5432
